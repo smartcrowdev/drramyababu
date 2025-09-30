@@ -2185,7 +2185,10 @@ select:focus,
 
 #resume-modal .custom_modal-content {
     width: 65%;
+    background: #cdbc96;
 }
+
+#resume-modal .close{ color: #000 !important;}
 
 /* The Close Button */
 #ifmCertificate-modal .close,
