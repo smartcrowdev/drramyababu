@@ -2188,7 +2188,9 @@ select:focus,
     background: #cdbc96;
 }
 
-#resume-modal .close{ color: #000 !important;}
+#resume-modal .close {
+    color: #000 !important;
+}
 
 /* The Close Button */
 #ifmCertificate-modal .close,
@@ -2351,7 +2353,7 @@ select:focus,
     content: "";
     width: 20px;
     height: 20px;
-    border-top: 20px solid #c7300ad9;
+    border-top: 20px solid #d25532;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     margin: 0 auto;
@@ -2364,7 +2366,7 @@ select:focus,
 .testimonial .description {
     padding: 25px 35px;
     margin: 0;
-    background: rgba(199, 48, 10, .9);
+    background: rgba(199, 48, 10, .8);
     border-radius: 30px;
     font-size: 20px;
     color: #fff;
@@ -2383,7 +2385,7 @@ select:focus,
     line-height: 35px;
     border-radius: 8px;
     text-align: center;
-    background: rgba(199, 48, 10, .9);
+    background: rgba(199, 48, 10, .6);
     position: absolute;
 }
 
@@ -2485,4 +2487,65 @@ select:focus,
     .testimonial .post {
         font-size: 13px;
     }
+}
+
+#testimonial-slider.owl-theme .owl-controls .owl-page span {
+    border: 1px solid #912509;
+}
+
+#testimonial-slider.owl-theme .owl-controls .owl-page.active span {
+    background: #a10f0f;
+}
+
+.chat-whatsapp {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    bottom: 25px;
+    right: 25px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.chat-whatsapp i {
+    color: #0ca042;
+}
+
+.chat-whatsapp:hover {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+    background: rgb(37, 211, 102, 1);
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-2px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(2px, 0, 0);
+    }
+}
+
+.chat-whatsapp:hover i { 
+    color: #e9f3ed;
 }

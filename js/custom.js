@@ -349,3 +349,54 @@ $(document).ready(function(){
         autoPlay:true
     });
 });
+
+
+        // Get the modal
+        var tnCertificatebtn = document.getElementById("tnCertificatebtn");
+        var ifmCertificatebtn = document.getElementById("ifmCertificatebtn");
+        var resumebtn = document.getElementById("resumeBtn");
+
+        // Get the button that opens the modal
+        var tnCertificatemodal = document.getElementById("tnCertificate-modal");
+        var ifmCertificatemodal = document.getElementById("ifmCertificate-modal");
+        var resumemodal = document.getElementById("resume-modal");
+
+        // Get the <span> element that closes the modal
+        var tnCertificatemodalspan = document.getElementById("tnCertificate-modal").getElementsByClassName("close")[0];
+        var ifmCertificatemodalspan = document.getElementById("ifmCertificate-modal").getElementsByClassName("close")[0];
+        var resumemodalspan = document.getElementById("resume-modal").getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        tnCertificatebtn.onclick = function () {
+            tnCertificatemodal.style.display = "block";
+        }
+        ifmCertificatebtn.onclick = function () {
+            ifmCertificatemodal.style.display = "block";
+        }
+        resumebtn.onclick = function () {
+            resumemodal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        tnCertificatemodalspan.onclick = function () {
+            tnCertificatemodal.style.display = "none";
+        }
+        ifmCertificatemodalspan.onclick = function () {
+            ifmCertificatemodal.style.display = "none";
+        }
+        resumemodalspan.onclick = function () {
+            resumemodal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == tnCertificatemodal) {
+                tnCertificatemodal.style.display = "none";
+            }
+            if (event.target == ifmCertificatemodal) {
+                ifmCertificatemodal.style.display = "none";
+            }
+            if (event.target == resumemodal) {
+                resumemodal.style.display = "none";
+            }
+        }
