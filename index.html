@@ -24,9 +24,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrapV5.min.css">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/landingpage.css">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/landingpage-responsive.css">
     <!-- color -->
     <link id="changeable-colors" rel="stylesheet" href="css/colors/orange.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -39,6 +39,9 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K07XL2MX9Q"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-K07XL2MX9Q'); </script>
 
 </head>
 
@@ -67,7 +70,14 @@
                                     </a>
                                 </div>
                             </div>
+                            <div class="stage">
+                                <a href="/appointment">
+                                    <button class="btn"> <i class="fa fa-heartbeat"></i> Consult Now</button>
+                                </a>
+                            </div>
+
                             <div id="navbar" class="navbar-collapse collapse">
+                                <!--  <button class="btn btn-pulse">Schedule an Appointment</button> -->
                                 <ul class="nav navbar-nav navbar-right">
                                     <li class="active"><a href="#banner">Home</a></li>
                                     <li><a href="#about">About me</a></li>
@@ -75,7 +85,6 @@
                                     <li><a href="#treatments">Treatments</a></li>
                                     <li><a href="#blog">Blog</a></li>
                                     <li><a href="#gallery">Testimonials</a></li>
-                                    <li><a href="/appointment">Appointment</a></li>
                                     <li><a href="#footer">Contact us</a></li>
                                 </ul>
                             </div>
@@ -103,20 +112,20 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item carousel-1 active">
-                <img src="images/banner-1.jpg" class="d-none d-md-block d-lg-block w-100" alt="RamyaBabu">
-                <img src="images/banner-1-lg.jpg" class=" d-md-none d-lg-none w-100" alt="RamyaBabu">
+                <img src="images/banner-1.webp" class="d-none d-md-block d-lg-block w-100" alt="RamyaBabu">
+                <img src="images/banner-1-lg.webp" class=" d-md-none d-lg-none w-100" alt="RamyaBabu">
             </div>
             <div class="carousel-item carousel-2">
-                <img src="images/banner-2.jpg" class="d-none d-md-block w-100" alt="RamyaBabu">
-                <img src="images/banner-2-lg.jpg" class=" d-md-none d-lg-none w-100" alt="RamyaBabu">
+                <img src="images/banner-2.webp" class="d-none d-md-block w-100" alt="RamyaBabu">
+                <img src="images/banner-2-lg.webp" class=" d-md-none d-lg-none w-100" alt="RamyaBabu">
             </div>
             <div class="carousel-item carousel-3">
-                <img src="images/banner-3.jpg" class="d-none d-md-block w-100" alt="RamyaBabu">
-                <img src="images/banner-3-lg.jpg" class=" d-md-none d-lg-none w-100" alt="RamyaBabu">
+                <img src="images/banner-3.webp" class="d-none d-md-block w-100" alt="RamyaBabu">
+                <img src="images/banner-3-lg.webp" class=" d-md-none d-lg-none w-100" alt="RamyaBabu">
             </div>
             <div class="carousel-item carousel-4">
-                <img src="images/banner-4.jpg" class="d-none d-md-block  w-100" alt="RamyaBabu">
-                <img src="images/banner-4-lg.jpg" class=" d-md-none d-lg-none w-100" alt="RamyaBabu">
+                <img src="images/banner-4.webp" class="d-none d-md-block  w-100" alt="RamyaBabu">
+                <img src="images/banner-4-lg.webp" class=" d-md-none d-lg-none w-100" alt="RamyaBabu">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
@@ -130,6 +139,12 @@
         <a href="#about" class="d-none d-lg-block">
             <div class="mouse"></div>
         </a>
+        <div class="stage-mobile">
+            <a href="/appointment">
+                <button class="btn"> <i class="fa fa-heartbeat"></i> CONSULT NOW</button>
+            </a>
+        </div>
+
     </div>
 
     <div id="about" class="about-main pad-top-100 pad-bottom-100 parallax">
@@ -139,14 +154,14 @@
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                         <h2 class="block-title"> About Me </h2>
                         <h3>I am Dr.Ramya Babu, a dedicated naturopath</h3>
-                        <p>Committed to guiding individuals toward
+                        <p>Committed to guiding you toward
                             sustainable health. My practice is rooted in identifying and addressing the root causes of
                             illness rather than masking symptoms.</p>
                         <p>
                             Dis'ease' is a state of not being at 'ease'.To shift to a state of ease, we must recognize
-                            the body’s imbalance rather than suppress the signals. As a naturopath, I practice the
-                            principle of doctor as teacher guiding individuals to understand their bodies, make mindful
-                            choices, and sustain their own wellbeing.</p>
+                            the body’s imbalance rather than suppress the signals. As a naturopath, I will help you
+                            understand your body, make mindful
+                            choices, and sustain your own wellbeing.</p>
                         <p>
                             For me, sustainable health is not about restrictive diets or cheat meals. It is about
                             moderation, balance, and conscious living that makes you happily embrace food, lifestyle,
@@ -190,8 +205,8 @@
                     <!-- Modal content -->
                     <div class="custom_modal-content">
                         <span class="close">&times;</span>
-                        <img class="about-main" src="images/resume.jpg" height="100%" width="100%" class="d-block w-100"
-                            alt="Ramya babu CV/Resume">
+                        <img class="about-main" src="images/resume.webp" height="100%" width="100%"
+                            class="d-block w-100" alt="Ramya babu CV/Resume">
                     </div>
 
                 </div>
@@ -200,7 +215,7 @@
                     <!-- Modal content -->
                     <div class="custom_modal-content">
                         <span class="close">&times;</span>
-                        <img class="about-main" src="images/about-main.jpg" height="100%" width="100%"
+                        <img class="about-main" src="images/about-main.webp" height="100%" width="100%"
                             class="d-block w-100" alt="Tamilnadu Certificate">
                     </div>
 
@@ -210,7 +225,7 @@
                     <!-- Modal content -->
                     <div class="custom_modal-content">
                         <span class="close">&times;</span>
-                        <img class="about-main" src="images/certificate-ifm.jpg" height="100%" width="100%"
+                        <img class="about-main" src="images/certificate-ifm.webp" height="100%" width="100%"
                             class="d-block w-100" alt="Institute of functional medicine Certificate">
                     </div>
 
@@ -248,7 +263,7 @@
                                             therapeutic yoga, detoxification, and emotional well-being.
                                         </p>
                                         <p>
-                                            Supporting patients through long-term healing journeys using
+                                            Supporting you through long-term healing journeys using
                                             evidence-based naturopathic principles.
                                         </p>
                                     </div>
@@ -261,8 +276,8 @@
                                     <div>
                                         <h3>Health Workshops</h3>
                                         <p>
-                                            Awareness is the first step to healing. Through my workshops, I educate
-                                            individuals and communities on topics like family nutrition, lifestyle
+                                            Awareness is the first step to healing. Through my workshops, you will learn
+                                            about family nutrition, lifestyle
                                             disorders, preventive health, women’s wellbeing, and stress management.
                                             These interactive sessions make health simple, practical, and sustainable
                                         </p>
@@ -305,10 +320,10 @@
                             <div> <!-- class="col-md-4 col-sm-4" -->
                                 <div class="sf-team row">
                                     <div class="thumb">
-                                        <a href="#"><img src="images/Pravin_Jacob.jpg" alt=""></a>
+                                        <a href="#"><img src="images/Pravin_Jacob.webp" alt=""></a>
                                     </div>
                                     <div class="text-col">
-                                        <h3>PRAVIN JACOB</h3>
+                                        <h3>PRAVEEN JACOB</h3>
                                         <p>Dr. Praveen Jacob is a renowned naturopath with nearly two decades of
                                             experience in holistic health and lifestyle medicine. Author of Power Diet
                                             and a recognised researcher in gut health and nutrition, he has contributed
@@ -362,7 +377,7 @@
                         <div class="treatment-column">
                             <div class="gal-item">
                                 <a href="#" data-toggle="modal" data-target="#1">
-                                    <img src="images/treatment-women-health.jpg" alt="" />
+                                    <img src="images/treatment-women-health.webp" alt="" />
                                 </a>
                                 <div class="modal fade" id="1" tabindex="-1" role="dialog">
                                     <div class="modal-dialog" role="document">
@@ -397,7 +412,7 @@
                             </div>
                             <div class="gal-item">
                                 <a href="#" data-toggle="modal" data-target="#2">
-                                    <img src="images/treatment-gut-health.jpg" alt="" />
+                                    <img src="images/treatment-gut-health.webp" alt="" />
                                 </a>
                                 <div class="modal fade" id="2" tabindex="-1" role="dialog">
                                     <div class="modal-dialog" role="document">
@@ -428,7 +443,7 @@
                             </div>
                             <div class="gal-item">
                                 <a href="#" data-toggle="modal" data-target="#3">
-                                    <img src="images/treatment-mental-health.jpg" alt="" />
+                                    <img src="images/treatment-mental-health.webp" alt="" />
                                 </a>
                                 <div class="modal fade" id="3" tabindex="-1" role="dialog">
                                     <div class="modal-dialog" role="document">
@@ -455,7 +470,7 @@
                             </div>
                             <div class="gal-item">
                                 <a href="#" data-toggle="modal" data-target="#4">
-                                    <img src="images/treatment-sleep-issues.jpg" alt="" />
+                                    <img src="images/treatment-sleep-issues.webp" alt="" />
                                 </a>
                                 <div class="modal fade" id="4" tabindex="-1" role="dialog">
                                     <div class="modal-dialog" role="document">
@@ -487,7 +502,7 @@
                         <div class="treatment-column">
                             <div class="gal-item">
                                 <a href="#" data-toggle="modal" data-target="#5">
-                                    <img src="images/treatment-strengthening-immune.jpg" alt="" />
+                                    <img src="images/treatment-strengthening-immune.webp" alt="" />
                                 </a>
                                 <div class="modal fade" id="5" tabindex="-1" role="dialog">
                                     <div class="modal-dialog" role="document">
@@ -517,7 +532,7 @@
                             </div>
                             <div class="gal-item">
                                 <a href="#" data-toggle="modal" data-target="#6">
-                                    <img src="images/treament-energy-restoration.jpg" alt="" />
+                                    <img src="images/treament-energy-restoration.webp" alt="" />
                                 </a>
                                 <div class="modal fade" id="6" tabindex="-1" role="dialog">
                                     <div class="modal-dialog" role="document">
@@ -549,7 +564,7 @@
                             </div>
                             <div class="gal-item">
                                 <a href="#" data-toggle="modal" data-target="#7">
-                                    <img src="images/treatment-Diabetes.jpg" alt="" />
+                                    <img src="images/treatment-Diabetes.webp" alt="" />
                                 </a>
                                 <div class="modal fade" id="7" tabindex="-1" role="dialog">
                                     <div class="modal-dialog" role="document">
@@ -578,7 +593,7 @@
                             </div>
                             <div class="gal-item">
                                 <a href="#" data-toggle="modal" data-target="#8">
-                                    <img src="images/treatment-thyroid.jpg" alt="" />
+                                    <img src="images/treatment-thyroid.webp" alt="" />
                                 </a>
                                 <div class="modal fade" id="8" tabindex="-1" role="dialog">
                                     <div class="modal-dialog" role="document">
@@ -612,7 +627,7 @@
                         <div class="treatment-column">
                             <div class="gal-item">
                                 <a href="#" data-toggle="modal" data-target="#9">
-                                    <img src="images/treatment-weight-loss.jpg" alt="" />
+                                    <img src="images/treatment-weight-loss.webp" alt="" />
                                 </a>
                                 <div class="modal fade" id="9" tabindex="-1" role="dialog">
                                     <div class="modal-dialog" role="document">
@@ -645,7 +660,7 @@
                             </div>
                             <div class="gal-item">
                                 <a href="#" data-toggle="modal" data-target="#10">
-                                    <img src="images/treatment-Paediatric-Nutrition.jpg" alt="" />
+                                    <img src="images/treatment-Paediatric-Nutrition.webp" alt="" />
                                 </a>
                                 <div class="modal fade" id="10" tabindex="-1" role="dialog">
                                     <div class="modal-dialog" role="document">
@@ -676,7 +691,7 @@
                             </div>
                             <div class="gal-item">
                                 <a href="#" data-toggle="modal" data-target="#11">
-                                    <img src="images/treatment-Detox.jpg" alt="" />
+                                    <img src="images/treatment-Detox.webp" alt="" />
                                 </a>
                                 <div class="modal fade" id="11" tabindex="-1" role="dialog">
                                     <div class="modal-dialog" role="document">
@@ -709,7 +724,7 @@
                             </div>
                             <div class="gal-item">
                                 <a href="#" data-toggle="modal" data-target="#12">
-                                    <img src="images/treatment-Acupuncture.jpg" alt="" />
+                                    <img src="images/treatment-Acupuncture.webp" alt="" />
                                 </a>
                                 <div class="modal fade" id="12" tabindex="-1" role="dialog">
                                     <div class="modal-dialog" role="document">
@@ -733,7 +748,8 @@
                             </div>
                             <div class="gal-item">
                                 <a href="#" data-toggle="modal" data-target="#13">
-                                    <img src="images/treatment-male-fertility-issues.jpg" alt="Male fertility issues" />
+                                    <img src="images/treatment-male-fertility-issues.webp"
+                                        alt="Male fertility issues" />
                                 </a>
                                 <div class="modal fade" id="13" tabindex="-1" role="dialog">
                                     <div class="modal-dialog" role="document">
@@ -764,7 +780,7 @@
                             </div>
                             <div class="gal-item">
                                 <a href="#" data-toggle="modal" data-target="#14">
-                                    <img src="images/treatment-yoga.jpg" alt="Personalised yoga" />
+                                    <img src="images/treatment-yoga.webp" alt="Personalised yoga" />
                                 </a>
                                 <div class="modal fade" id="14" tabindex="-1" role="dialog">
                                     <div class="modal-dialog" role="document">
@@ -810,7 +826,45 @@
                             <div class="col-md-6 col-sm-6">
                                 <div class="blog-block">
                                     <div class="blog-img-box">
-                                        <img src="images/featured-image-01.jpg" alt="" />
+                                        <img src="images/featured-image-03.webp" alt="" />
+                                        <div class="overlay">
+                                            <a href="https://www.instagram.com/p/DJTv7w_i5nm/" target="_blank"><i
+                                                    class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <p><span>6 MAY, 2025</span></p>
+                                        <h2>Oxidative Stress is the cause of all diseases</h2>
+                                        <h5>BY Ramya Babu</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="images/featured-image-04.webp" alt="" />
+                                        <div class="overlay">
+                                            <a href="https://www.instagram.com/p/DLPVze4B7tg/" target="_blank"><i
+                                                    class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <p><span>23 MAY, 2025</span></p>
+                                        <h2>Ever felt like your energy wakes up only in the evening?</h2>
+                                        <h5>BY Ramya Babu</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="images/featured-image-01.webp" alt="" />
                                         <div class="overlay">
                                             <a href="https://www.instagram.com/drramyababu/reel/DJbf9_vCgKW/"
                                                 target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
@@ -829,7 +883,7 @@
                             <div class="col-md-6 col-sm-6">
                                 <div class="blog-block">
                                     <div class="blog-img-box">
-                                        <img src="images/featured-image-02.jpg" alt="" />
+                                        <img src="images/featured-image-02.webp" alt="" />
                                         <div class="overlay">
                                             <a href="https://www.instagram.com/drramyababu/reel/DKUPCwiIELc/"
                                                 target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
@@ -838,44 +892,6 @@
                                     <div class="blog-dit">
                                         <p><span>24 JUNE, 2025</span></p>
                                         <h2>PLANT VS ANIMAL PROTEIN</h2>
-                                        <h5>BY Ramya Babu</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="blog-block">
-                                    <div class="blog-img-box">
-                                        <img src="images/featured-image-03.jpg" alt="" />
-                                        <div class="overlay">
-                                            <a href="https://www.instagram.com/drramyababu/reel/DK_108OhIvV/"
-                                                target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-dit">
-                                        <p><span>4 MAY, 2025</span></p>
-                                        <h2>5 TIPS FOR POSTPARTUM WEIGHT LOSS</h2>
-                                        <h5>BY Ramya Babu</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="blog-block">
-                                    <div class="blog-img-box">
-                                        <img src="images/featured-image-04.jpg" alt="" />
-                                        <div class="overlay">
-                                            <a href="https://www.instagram.com/p/DKHTwmMilmI/" target="_blank"><i
-                                                    class="fa fa-link" aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-dit">
-                                        <p><span>12 MAY, 2025</span></p>
-                                        <h2>IS MILK GOOD FOR YOUR HEALTH?</h2>
                                         <h5>BY Ramya Babu</h5>
                                     </div>
                                 </div>
@@ -918,11 +934,11 @@
                                         </div>
                                         <div class="testimonial-profile">
                                             <!-- <div class="pic">
-                                                <img src="images/img-1.jpg" alt="">
+                                                <img src="images/img-1.webp" alt="">
                                             </div> -->
                                             <h3 class="title">
                                                 Lavanya
-                                                <span class="post">India</span>
+                                                <span class="post">Tirunelveli, India</span>
                                             </h3>
                                         </div>
                                     </div>
@@ -938,7 +954,7 @@
                                         <div class="testimonial-profile">
                                             <h3 class="title">
                                                 Priya
-                                                <span class="post">Tirunelveli</span>
+                                                <span class="post">Tirunelveli, India</span>
                                             </h3>
                                         </div>
                                     </div>
@@ -954,7 +970,7 @@
                                         <div class="testimonial-profile">
                                             <h3 class="title">
                                                 Saranya
-                                                <span class="post">Chennai</span>
+                                                <span class="post">Chennai, India</span>
                                             </h3>
                                         </div>
                                     </div>
@@ -970,14 +986,14 @@
                                         <div class="testimonial-profile">
                                             <h3 class="title">
                                                 Carolin
-                                                <span class="post">Germany</span>
+                                                <span class="post">Berlin, Germany</span>
                                             </h3>
                                         </div>
                                     </div>
                                     <div class="testimonial">
                                         <div class="testimonial-content">
                                             <p class="description">
-                                                My bloating and acidity vanished after the gut cleanse plan — I never
+                                                My bloating and acidity vanished after the gut cleanse plan. I never
                                                 realized food could be medicine until now. The doctor taught me what
                                                 triggers my gut issues. I feel lighter, happier, and finally comfortable
                                                 after meals
@@ -986,7 +1002,7 @@
                                         <div class="testimonial-profile">
                                             <h3 class="title">
                                                 Jessi
-                                                <span class="post">Mumbai</span>
+                                                <span class="post">Mumbai, India</span>
                                             </h3>
                                         </div>
                                     </div>
@@ -1126,8 +1142,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <h6 class="copy-title"> Copyright &copy; 2025 Dr.Ramyababu portfolio is powered by <a
-                                    href="javascript:void(0)" target="_blank">Smart Crow Digital Solutions</a> </h6>
+                            <h2 class="copy-title"> <i>Copyright &copy; 2025 Dr.Ramyababu portfolio is powered by
+                                </i><b><a href="https://www.smartcrowdigital.in" target="_blank">SMART CROW Digital
+                                        Solutions</a></b> </h2>
                         </div>
                     </div>
                     <!-- end row -->
@@ -1141,7 +1158,7 @@
     <!-- end footer-main -->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://api.whatsapp.com/send?phone=919488373111&text=Hello doctor, I am interested for a consultation"
+    <a href="https://api.whatsapp.com/send?phone=+4915150746831&text=Hello doctor, I am interested for a consultation"
         class="chat-whatsapp" target="_blank">
         <i class="fa fa-whatsapp"></i>
     </a>
